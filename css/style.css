@@ -1,1 +1,48 @@
 /* Add any custom CSS stylings you want here */
+/* General page styling */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page title */
+h1 {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Search bar spacing */
+#search-input {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+/* Fetch button styling */
+#fetch-gif-btn {
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* GIF container spacing */
+#gif-container {
+  margin-top: 20px;
+}
+
+/* Individual GIF styling */
+#gif-container img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hover effect for GIFs */
+#gif-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Center content on large screens */
+.container {
+  max-width: 900px;
+}
